@@ -38,7 +38,7 @@ namespace HimawariNoFormAutostart
     public class HimawariAppContext : ApplicationContext
     {
         //MAIN HIMAWARI URL
-        private const string HIMAWARI_url = @"http://himawari8-dl.nict.go.jp/himawari8/img/D531106/";
+        private const string HIMAWARI_url = @"https://himawari8-dl.nict.go.jp/himawari8/img/D531106/";
         bool useLog = true;//set to false if no log needed
         bool useAutoStart = true;//set to false if no autostart needed
 
