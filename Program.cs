@@ -163,6 +163,7 @@ namespace HimawariNoFormAutostart
                     {
                         string curUrl = him_url + "_" + x.ToString() + "_" + y.ToString() + ".png";
                         addToLog("Downloading " + curUrl);
+                        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                         request = WebRequest.Create(curUrl);
                         if (defaultProxy)
                         {
